@@ -1,12 +1,12 @@
-const State =  () => {
+import Common from "./Common"
+
+const State = () => {
     return (
         <div>
-            <div>
-                <a href="/"><button>Return Home</button></a>
-            </div>
-            State News
+            <Common/>
+            <div>State News</div>
         </div>
-    )
-}
+    );
+  };
 
 export default State

@@ -1,12 +1,12 @@
-const Local =  () => {
+import Common from "./Common"
+
+const Local = () => {
     return (
         <div>
-            <div>
-                <a href="/"><button>Return Home</button></a>
-            </div>
-            Local News
+            <Common/>
+            <div>Local News</div>
         </div>
-    )
-}
+    );
+  };
 
 export default Local

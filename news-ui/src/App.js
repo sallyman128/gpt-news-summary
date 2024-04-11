@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 import Home from './Home';
 import Global from './news-domain/Global';

@@ -1,12 +1,12 @@
-const Global =  () => {
+import Common from "./Common"
+
+const Global = () => {
     return (
         <div>
-            <div>
-                <a href="/"><button>Return Home</button></a>
-            </div>
-            Glboal News
+            <Common/>
+            <div>Global News</div>
         </div>
-    )
-}
+    );
+  };
 
 export default Global
