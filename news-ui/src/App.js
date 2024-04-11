@@ -1,19 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
+import Home from './Home';
 
 function App() {
   return (
-    <div className="App App-header">
-      <header>
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-      <body>
-        <button className="button">Global News</button>
-        <button className="button">National News</button>
-        <button className="button">State News</button>
-      </body>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} /> */}
+        {/* ... other routes */}
+      </Routes>
+    </Router>
   );
 }
 
-export default App;
+
+export default App
